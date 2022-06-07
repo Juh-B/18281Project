@@ -1,0 +1,28 @@
+https://www.youtube.com/watch?v=Z1RJmh_OqeA                 //video tutor online
+https://www.youtube.com/watch?v=w25ea_I89iM
+
+python --version   or    python3 --version                  //version check
+
+pip3 install virtualenv
+
+pip3 install flask flask-sqlalchemy
+
+heroku run python                              //these 4 lines active database online
+>>> from app import db
+>>> db.create_all()
+>>> exit()
+
+https://www.qr-code-generator.com/
+
+https://www.youtube.com/watch?v=6plVs_ytIH8&list=RDCMUCKQdc0-Targ4nDIAUrlfKiA&index=13  //upload last 5 min
+
+heroku addons:create heroku-postgresql:hobby-dev --app todoonlineby12345
+heroku config --app todoonlineby12345
+
+pip freeze requirements.txt
+git add .
+git commit -m "Initial deploy"              //on local staging
+
+git push heroku main
+
+heroku gp:reset DATABASE_URL                //reset database
